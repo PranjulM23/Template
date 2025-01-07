@@ -1,6 +1,6 @@
 // components/Hero.js
 import React from 'react';
-
+import img from "../assets/img/image.png"
 const Hero = () => {
   return (
     <section className="bg-gray-10 pt-24 md:pt-32 pb-12 md:pb-20">
@@ -22,7 +22,7 @@ const Hero = () => {
         </div>
       </div>
       <div className=" flex justify-center mt-10">
-        <img src="https://www.shutterstock.com/image-vector/vector-notebook-computer-smartphone-messenger-600nw-2422041991.jpg" alt="" width={1000}  className='mb-4'/>
+        <img src={img} alt="" width={1000}  className='mb-4'/>
       </div>
       
       {/* <div className='md:flex justify-evenly items-center'>
